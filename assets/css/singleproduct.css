@@ -346,20 +346,23 @@
 }
 .rp-item-content {
   background-color: #fff;
-  padding: 20px 15px;
+  padding: 16px 12px;
 }
 .rp-name h6 {
   color: #5d2471;
   font-size: 20px;
   font-weight: 600;
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 25ch;
 }
 .rp-price p {
   font-size: 20px;
   color: #5d2471;
   font-weight: 600;
   margin: 0;
-  padding: 3px 0;
 }
 .rp-rating span svg {
   color: #fdad2b;
@@ -369,7 +372,6 @@
 .rp-category p {
   margin: 0;
   font-size: 18px;
-  padding-bottom: 10px;
   color: #8f8f8f;
 }
 .rp-category p span {
