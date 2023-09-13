@@ -1,0 +1,472 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-section-large {
+    display: none;
+  }
+  .top-header-section {
+    display: none;
+  }
+  .brand-logo {
+    text-align: center;
+  }
+  .top-header-button {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .navbar-cart-button {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    border: 2px solid #000;
+    box-shadow: none;
+  }
+  .search-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #5d2471;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .search-icon svg {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .sub-drop-menu {
+    background-color: #5d2471;
+  }
+  .sub-drop-item {
+    color: #fff;
+  }
+  .header-cart-button {
+    display: block;
+    text-align: left;
+  }
+  .banner-section {
+    padding-top: 50px;
+  }
+  .imageheight {
+    height: 230px;
+  }
+  .caption-display {
+    display: block !important;
+  }
+  .banner-caption {
+    bottom: 0%;
+    transform: translateY(0%);
+  }
+  .carousel-caption {
+    right: 0%;
+    left: 0%;
+  }
+  .banner-caption h5 {
+    font-size: 16px;
+    margin: 0;
+  }
+  .banner-caption p {
+    font-size: 14px;
+  }
+  .custom-bg-next,
+  .custom-bg-prev {
+    width: 2rem;
+    height: 2rem;
+  }
+  .suffered-alteration-heading h6 {
+    font-size: 16px;
+  }
+  .suffered-alteration-heading h1 {
+    font-size: 28px;
+  }
+  .suffered-alteration-heading p {
+    font-size: 14px;
+  }
+  .mobile-magnify {
+    display: block;
+  }
+  .productofmonth-title {
+    font-size: 28px;
+  }
+  .productofmonth-image-item {
+    margin-top: 20px;
+  }
+  .productofmonth-image {
+    text-align: center;
+  }
+  .productofmonth-image2 {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translateY(0%);
+    text-align: center;
+    margin-top: 10px;
+  }
+  .featured-product-heading h1 {
+    font-size: 28px;
+  }
+  .featured-item-title {
+    font-size: 18px;
+  }
+  .featured-item-details {
+    font-size: 16px;
+  }
+  .featured-rate p {
+    font-size: 16px;
+  }
+  .featured-rate h5 {
+    font-size: 20px;
+  }
+  .testimonial-heading h1 {
+    font-size: 28px;
+  }
+  .testimonial-add-image img {
+    height: 230px;
+    width: 100%;
+  }
+  .productofmonth-image img{
+    height: 340px;
+  }
+  .newsletter-social-link {
+    justify-content: center;
+  }
+  .newsletter-subscribe-form {
+    margin-top: 15px;
+  }
+  .footer-section {
+    padding-top: 40px;
+  }
+  .footer-logo img {
+    width: 100%;
+  }
+  .footer-address p {
+    font-size: 16px;
+  }
+  .footer-center-content {
+    margin-top: 20px;
+  }
+  .footer-center-content ul li a {
+    font-size: 16px;
+  }
+  .footer-right-content {
+    margin-left: 0px;
+  }
+  .payment-option {
+    display: block;
+  }
+  .payment-with {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .payment-method-logo img {
+    width: 50px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .header-section-large {
+    display: none;
+  }
+  .top-header-section {
+    display: none;
+  }
+  .header-cart-button {
+    display: block;
+    text-align: left !important;
+  }
+  .brand-logo {
+    text-align: center;
+  }
+  .brand-logo img {
+    width: 80%;
+  }
+  .top-header-button {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .navbar-cart-button {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    border: 2px solid #000;
+    box-shadow: none;
+  }
+  .sub-drop-menu {
+    background-color: #5d2471;
+  }
+  .sub-drop-item {
+    color: #fff;
+  }
+  .banner-section {
+    padding-top: 50px;
+  }
+  .caption-display {
+    display: block !important;
+  }
+  .banner-caption {
+    bottom: 0%;
+    transform: translateY(0%);
+  }
+  .carousel-caption {
+    right: 0%;
+    left: 0%;
+  }
+  .banner-caption h5 {
+    font-size: 28px;
+  }
+  .banner-caption p {
+    font-size: 22px;
+  }
+  .suffered-alteration-heading h1 {
+    font-size: 35px;
+  }
+  .productofmonth-image-item {
+    margin-top: 20px;
+  }
+  .productofmonth-image2 {
+    left: 5%;
+  }
+  .testimonial-add-image {
+    text-align: center;
+  }
+  .newsletter-social-link {
+    justify-content: center;
+  }
+  .newsletter-subscribe-field {
+    margin-top: 20px;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-address p {
+    font-size: 20px;
+  }
+  .footer-center-content {
+    margin-top: 20px;
+  }
+  .footer-right-content {
+    margin-left: 0px;
+  }
+  .payment-option {
+    display: block;
+  }
+  .payment-with {
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .payment-method-logo img {
+    width: 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header-section-large {
+    display: none;
+  }
+  .top-header-section {
+    display: none;
+  }
+  .header-cart-button {
+    display: block;
+    text-align: left !important;
+  }
+  .header-cart-button svg {
+    color: #fff;
+  }
+  .brand-logo img {
+    width: 100%;
+  }
+  .navbar-cart-button {
+    margin-top: 0px;
+    text-align: end;
+  }
+  .navbar-cart-btn {
+    padding: 8px 15px;
+  }
+  .sub-drop-menu {
+    background-color: #5d2471;
+  }
+  .sub-drop-item {
+    color: #fff;
+  }
+  .banner-caption h5 {
+    font-size: 30px;
+  }
+  .banner-caption p {
+    font-size: 25px;
+  }
+  .alteration-item-details {
+    font-size: 14px;
+  }
+  .alteration-rate h5 {
+    font-size: 18px;
+  }
+  .go-link-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .go-link-btn svg {
+    font-size: 18px;
+  }
+  .productofmonth-image2 img {
+    height: 315px;
+  }
+  .productofmonth-image2 {
+    left: 0%;
+  }
+  .testimonial-add-image {
+    text-align: center;
+  }
+  .testimonialadd-item {
+    justify-content: center;
+  }
+  .testimonial-add-image img {
+    height: 202px;
+  }
+  .newsletter-social-link {
+    justify-content: start;
+  }
+  .newsletter-subscribe-field {
+    margin-top: 0px;
+  }
+  .footer-address p {
+    font-size: 17px;
+  }
+  .footer-center-content h2 {
+    font-size: 22px;
+  }
+  .footer-center-content ul li a {
+    font-size: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header-section-mobile {
+    display: none;
+  }
+  .header-section-large {
+    display: block;
+  }
+  .top-header-section {
+    display: block;
+  }
+  .header-cart-button {
+    display: none;
+  }
+  .sub-drop-menu {
+    background-color: #fff;
+  }
+  .sub-drop-item {
+    color: #000;
+  }
+  .banner-section {
+    padding-top: 140px;
+  }
+  .banner-caption h5 {
+    font-size: 40px;
+  }
+  .banner-caption p {
+    font-size: 35px;
+    margin: 0;
+  }
+  .banner-caption {
+    bottom: 25%;
+    transform: translateY(-25%);
+  }
+  .suffered-alteration-heading h1 {
+    font-size: 40px;
+  }
+  .productofmonth-image2 img {
+    height: 360px;
+  }
+  .productofmonth-image2 {
+    left: 10%;
+  }
+  .testimonial-add-image img {
+    width: auto;
+    height: 234px;
+  }
+  .newsletter-subscribe-field {
+    margin-top: 0px;
+  }
+  .footer-logo {
+    text-align: start;
+  }
+  .footer-logo img {
+    width: 80%;
+  }
+  .payment-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .payment-with {
+    margin-bottom: 0px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .header-cart-button {
+    display: none;
+  }
+  .banner-caption h5 {
+    font-size: 55px;
+  }
+  .banner-caption p {
+    font-size: 45px;
+  }
+  .alteration-item-details {
+    font-size: 16px;
+  }
+  .go-link-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .go-link-btn svg {
+    font-size: 20px;
+  }
+  .productofmonth-image2 {
+    left: 20%;
+  }
+  .testimonial-add-image img {
+    width: auto;
+    height: 210px;
+  }
+  .footer-right-content {
+    margin-left: 30px;
+  }
+  .footer-center-content ul li a {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .header-cart-button {
+    display: none;
+  }
+  .banner-caption h5 {
+    font-size: 60px;
+  }
+  .banner-caption p {
+    font-size: 50px;
+  }
+  .productofmonth-image2 {
+    left: 30%;
+  }
+  .mobile-magnify {
+    display: block;
+  }
+}
